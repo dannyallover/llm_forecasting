@@ -2,16 +2,16 @@
 
 This repository hosts the code for the paper: [Approaching Human-Level Forecasting with Language Models](https://arxiv.org/abs/2402.18563).
 
-<p align="center">
-  <img src="assets/forecasting_system.png" style="width: 80%; height: auto;">
-</p>
-
 Our system is designed to make automated, _simulated_ forecasts by following these steps:
 1. **Search Query Generation**: A language model (LM) is prompted to create search queries to retrieve articles published before a certain date from a news API.
 2. **Assess Article Relevancy**: A LM rates the relevancy of the retrieved articles and filters out non-relevant ones.
 3. **Summarize Articles**: A LM is prompted to retain the salient information relevant to the question from the filtered articles.
 4. **Reason and Predict**: A LM (base or fine-tuned) is prompted multiple times to produce reasoning and predictions based on the article summaries.
 5. **Forecast Aggregation**: An aggregation method is applied to all the predictions to obtain a final forecast.
+
+<p align="center">
+  <img src="assets/forecasting_system.png" style="width: 80%; height: auto;">
+</p>
 
 We've designed our system to be easily scalable to other news APIs and language models.
 
