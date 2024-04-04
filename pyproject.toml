@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm_forecasting"
+version = "0.0.1"
+dependencies = [
+    "requests==2.26.0",
+    "pandas==1.5.3",
+    "numpy==1.24.3",
+    "scipy",
+    "matplotlib",
+    "openai==1.6.1",
+    "tqdm",
+    "together",
+    "torch",
+    "bardapi",
+    "tiktoken",
+    "langchain",
+    "transformers",
+    "boto3",
+    "anthropic",
+    "gnews==0.3.6",
+    "newspaper4k",
+    "newscatcherapi",
+    "sentence_transformers",
+    "markdown2",
+    "google-generativeai",
+    "jsonlines",
+    "selenium",
+    "aws-wsgi==0.2.7",
+    "python-dotenv",
+    "google-cloud-secret-manager",
+    "black",
+    "black[jupyter]",
+    "autopep8",
+    "flake8",
+    "pytest",
+    "pytest-asyncio",
+    "rich",
+]
+
+[tool.setuptools.packages.find]
+where = ["llm_forecasting"]
