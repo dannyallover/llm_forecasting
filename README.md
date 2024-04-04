@@ -9,7 +9,7 @@ Our system is designed to make automated, _simulated_ forecasts by following the
 4. **Reason and Predict**: A LM (base or fine-tuned) is prompted multiple times to produce reasoning and predictions based on the article summaries.
 5. **Forecast Aggregation**: An aggregation method is applied to all the predictions to obtain a final forecast.
 
-We've designed our system to be easily scalable to other news APIs and language models. To run our system, you need to obtain your own API keys for the news and language model services you plan to use.
+We've designed our system to be easily scalable to other news APIs and language models.
 
 ## Development Guide
 This guide will help you set up your development environment for the project. Make sure you follow these steps under the root directory of the project (where **pyproject.toml** is located).
