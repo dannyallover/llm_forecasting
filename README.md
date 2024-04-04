@@ -58,6 +58,9 @@ conda deactivate
 ## Demo
 See the [system_demo](https://github.com/dannyallover/llm_forecasting/blob/main/notebooks/demo/system_demo.ipynb) for an example on how to run our system.
 
+## Dataset
+The cleaned and formatted dataset can be found on [huggingface](https://huggingface.co/datasets/YuehHanChen/forecasting), as well as the [raw dataset](https://huggingface.co/datasets/YuehHanChen/forecasting_raw).
+
 ## Contributing
 We welcome contributions to this repository. If you'd like to contribute, please follow these steps:
 
