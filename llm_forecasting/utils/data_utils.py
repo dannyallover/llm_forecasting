@@ -291,13 +291,13 @@ def reformat_metaculus_questions(
 
     for d in data:
         if "? (" in d["title"]:
-            prompt = string_utils.get_prompt(
+            prompt_composed = string_utils.get_prompt(
                 prompt[0],
                 prompt[1],
                 question=d["title"],
             )
             response = model_eval.get_response_from_model(
-                model_name=model_name, prompt=prompt
+                model_name=model_name, prompt=prompt_composed
             )
             transformed_title = find_text_between_stars(response)
             if transformed_title:
