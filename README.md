@@ -1,4 +1,4 @@
-# LLM Forecasting
+# LLM Forecasting [NeurIPS 2024]
 
 This repository hosts the code for the paper: [Approaching Human-Level Forecasting with Language Models](https://arxiv.org/abs/2402.18563).
 
